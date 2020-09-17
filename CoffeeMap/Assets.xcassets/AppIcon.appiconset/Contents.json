@@ -1,0 +1,116 @@
+{
+  "images" : [
+    {
+      "filename" : "Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "20x20"
+    },
+    {
+      "filename" : "Bản sao Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "20x20"
+    },
+    {
+      "filename" : "Bản sao Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03 2.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "Bản sao Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03 3.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03-1.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "40x40"
+    },
+    {
+      "filename" : "Bản sao Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03-1.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "40x40"
+    },
+    {
+      "filename" : "Bản sao Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03 2-1.png",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "size" : "60x60"
+    },
+    {
+      "filename" : "Bản sao Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03 3-1.png",
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "size" : "60x60"
+    },
+    {
+      "filename" : "Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03-2.png",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "20x20"
+    },
+    {
+      "filename" : "Bản sao Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03-2.png",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "size" : "20x20"
+    },
+    {
+      "filename" : "Bản sao Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03 2-2.png",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "Bản sao Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03 3-2.png",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "size" : "29x29"
+    },
+    {
+      "filename" : "Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03-3.png",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "40x40"
+    },
+    {
+      "filename" : "Bản sao Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03-3.png",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "size" : "40x40"
+    },
+    {
+      "filename" : "Bản sao Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03 2-3.png",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "size" : "76x76"
+    },
+    {
+      "filename" : "Bản sao Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03 3-3.png",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "size" : "76x76"
+    },
+    {
+      "filename" : "Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03-4.png",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "size" : "83.5x83.5"
+    },
+    {
+      "filename" : "Bản sao Ảnh chụp Màn hình 2020-08-10 lúc 00.53.03-4.png",
+      "idiom" : "ios-marketing",
+      "scale" : "1x",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

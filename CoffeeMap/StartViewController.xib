@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StartViewController">
+            <connections>
+                <outlet property="img" destination="jiH-K3-mlC" id="pKl-1B-8XM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchscreenimg" translatesAutoresizingMaskIntoConstraints="NO" id="jiH-K3-mlC">
+                    <rect key="frame" x="0.0" y="248" width="414" height="400"/>
+                    <color key="backgroundColor" red="0.2120709197" green="0.094129271979999998" blue="0.01202765863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="400" id="Nvv-0k-eGD"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNA-HQ-0AT">
+                    <rect key="frame" x="0.0" y="806" width="414" height="40"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="Sign Up">
+                        <color key="titleColor" red="0.21567357509999999" green="0.1274122235" blue="0.042896322350000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="signupClick" destination="-1" eventType="touchUpInside" id="GLA-i2-LxY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oro-AK-DC2">
+                    <rect key="frame" x="0.0" y="750" width="414" height="40"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="Sign In">
+                        <color key="titleColor" red="0.21567357509999999" green="0.1274122235" blue="0.042896322350000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="signinClick" destination="-1" eventType="touchUpInside" id="tGM-8K-9Oy"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.20792179404145072" green="0.12023130944596237" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Oro-AK-DC2" firstAttribute="trailing" secondItem="yNA-HQ-0AT" secondAttribute="trailing" id="8Ea-En-d9Q"/>
+                <constraint firstItem="jiH-K3-mlC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Fx9-Uf-0yT"/>
+                <constraint firstItem="jiH-K3-mlC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GHa-5D-csf"/>
+                <constraint firstItem="yNA-HQ-0AT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NPq-Ce-pEB"/>
+                <constraint firstItem="nbE-rJ-kjW" firstAttribute="bottom" secondItem="yNA-HQ-0AT" secondAttribute="bottom" constant="16" id="NjC-9s-m7A"/>
+                <constraint firstItem="jiH-K3-mlC" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="UbY-2e-hB8"/>
+                <constraint firstItem="yNA-HQ-0AT" firstAttribute="top" secondItem="Oro-AK-DC2" secondAttribute="bottom" constant="16" id="WO8-oQ-vDg"/>
+                <constraint firstAttribute="trailing" secondItem="yNA-HQ-0AT" secondAttribute="trailing" id="ntC-ZF-St0"/>
+                <constraint firstItem="Oro-AK-DC2" firstAttribute="leading" secondItem="yNA-HQ-0AT" secondAttribute="leading" id="tkN-4r-7I0"/>
+                <constraint firstAttribute="trailing" secondItem="jiH-K3-mlC" secondAttribute="trailing" id="ujm-bd-re5"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="nbE-rJ-kjW"/>
+            <point key="canvasLocation" x="139" y="81"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="launchscreenimg" width="724" height="715"/>
+    </resources>
+</document>
